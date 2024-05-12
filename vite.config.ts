@@ -1,19 +1,27 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 import basicSsl from '@vitejs/plugin-basic-ssl';
-import {svelte} from '@sveltejs/vite-plugin-svelte';
-import { reactivePreprocess }  from 'svelte-reactive-preprocessor';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { reactivePreprocess } from 'svelte-reactive-preprocessor';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), svelte({
-    preprocess: reactivePreprocess({
-      enabled: true,
-      state: false,
+  plugins: [
+    react(),
+    svelte({
+      preprocess: reactivePreprocess({
+        enabled: true,
+        state: false,
+      }),
     }),
-  }), basicSsl()],
+    basicSsl(),
+  ],
   define: {
-    'process.env': {}
+    'process.env': {},
   },
-  base: '/IncoSlots/'
-})
+  server: {
+    port: 4173, // 使用するポート番号を指定
+    https: false,
+  },
+  base: '/IncoSlots/',
+});
