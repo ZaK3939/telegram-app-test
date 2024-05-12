@@ -4277,9 +4277,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gh-pages@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "gh-pages@npm:6.0.0"
+"gh-pages@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "gh-pages@npm:6.1.1"
   dependencies:
     async: "npm:^3.2.4"
     commander: "npm:^11.0.0"
@@ -4291,7 +4291,7 @@ __metadata:
   bin:
     gh-pages: bin/gh-pages.js
     gh-pages-clean: bin/gh-pages-clean.js
-  checksum: 8b168b31219b5fc41142b820f8fad570f8e64f58a6ac7add6ad9385d21cbbbea8899b36a31415152648398075daa55eccdfa9423047c63983a3299b7000c487c
+  checksum: 1a0c1843862e3d85cdf7a165e92ab504e14b20d1c59398355cb73602041d8a3d509f9c5d80788628048610b751cb32731ed38079691c2b5f9d720664be3f1fa6
   languageName: node
   linkType: hard
 
@@ -4632,7 +4632,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.3"
     ethers: "npm:^5.7.2"
-    gh-pages: "npm:^6.0.0"
+    gh-pages: "npm:^6.1.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     sass: "npm:^1.69.3"

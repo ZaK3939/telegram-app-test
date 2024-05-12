@@ -116,3 +116,7 @@ Your bot should now be playable. Go to your bot, press "start" and play the game
 https://akkyorz.hatenablog.com/entry/2022/12/15/012728
 
 https://hackmd.io/@akikaki/rkVq8bjM6
+
+cloudflared tunnel --config ~/.cloudflared/config.yaml run
+
+https://testbot.zak3939.com/telegram-app-test
