@@ -14,7 +14,7 @@ export default defineConfig({
         state: false,
       }),
     }),
-    basicSsl(),
+    // basicSsl(),
   ],
   define: {
     'process.env': {},
@@ -23,5 +23,5 @@ export default defineConfig({
     port: 4173, // 使用するポート番号を指定
     https: false,
   },
-  base: '/IncoSlots/',
+  // base: '/IncoSlots/',
 });
